@@ -1,0 +1,22 @@
+<!DOCTYPE HTML >
+<HTML>
+
+<head>
+</head> 
+
+
+<body>
+<ul>
+   <li> 
+    index
+    </li> 
+   <li>
+   cursus
+   </li>
+   <li>
+   contact
+   <li>    
+
+</body>
+
+</HTML>
