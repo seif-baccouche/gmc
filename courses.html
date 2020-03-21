@@ -27,26 +27,27 @@
         </div>
         <center>
         <div>
-<button> BOLD </button>
-<button> UNDERLINE </button>
-<button> ITALIC </button>
+<button onclick="makeBold()"> BOLD </button>
+<button onclick="makeUndeline()">  UNDERLINE </button>
+<button onclick="makeItalic()"> ITALIC </button>
 
-<select>
-<option>20px</option>
-<option>60px</option>
-<option>80px</option>
+<select onchange="changeSize()" id="size">
+<option value="20px">20px</option>
+<option value="40px">40px</option>
+<option value="60px">60px</option>
 </select>
 
 
-<select>
-    <option>arial</option>
-    <option>ll</option>
-    <option>nn</option>
+<select <select onchange="changeTexte()" id="text">
+   >
+    <option value="arial">arial</option>
+    <option value="times"> times</option>
+    <option value="sherif">sherif</option>
     </select>
     </div>
-<textarea name="textarea"
+<textarea name="textarea" id="para" 
 rows="10" cols="50">Vous pouvez écrire ici.</textarea>
 </center>
 </body>
-
+<script src="js/main.js"></script>
 </HTML>
